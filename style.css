@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+main .images {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .images img {
+  height: 200px;
+  outline: solid 1px black;
+}
+
+main .images img:active {
+  transform: scale(1.2);
+}
+
+main h1 {
+  text-align: center;
+}
+
+.apelidos {
+  margin-left: 20px;
+}
+
+.apelidosCriados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.apelidosCriados p::first-letter{
+  font-size: xx-large;
+}
+
+.apelidos .apelidosCriados{
+  margin-top: 20px;
+}
